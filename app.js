@@ -23,3 +23,20 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+
+function changePage1() {
+	window.location.href = '/momo\'s_file/dummy1.php';
+}
+function changePage2() {
+	window.location.href = '/momo\'s_file/dummy2.php';
+}
+function changePage3() {
+	window.location.href = '/momo\'s_file/dummy3.php';
+}
+function changePage4() {
+	window.location.href = '/momo\'s_file/dummy4.php';
+}
+function changePage5() {
+	window.location.href = '/momo\'s_file/dummy5.php';
+}

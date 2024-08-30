@@ -708,3 +708,34 @@ p {
 		margin: 1.5%;
 	}
 }
+
+
+.profile-icon {
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	top: 20px; /* Adjust as needed */
+	right: 20px; /* Adjust as needed */
+  }
+  
+  .profile-icon img {
+	width: 40px; /* Adjust size as needed */
+	height: 40px; /* Adjust size as needed */
+	filter: invert(100%); /* Ensures the icon appears white */
+  }
+
+  .styled-button {
+	
+    background-color: #024d55; /* Green background */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Top and bottom padding, left and right padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Aligns button in a row */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin around button */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
