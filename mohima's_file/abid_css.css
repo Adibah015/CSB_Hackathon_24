@@ -1,7 +1,7 @@
 /* General styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
+    background-color: #dee7f4;
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,7 +12,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
@@ -20,6 +20,7 @@ body {
 
 h1, h2 {
     margin: 0;
+    padding-bottom: 20px;
 }
 
 /* Header styles */
@@ -51,7 +52,7 @@ h1, h2 {
 }
 
 .navlist ul li a:hover {
-    color: #007bff;
+    color: #4291e6;
 }
 
 /* Main section styles */
@@ -67,7 +68,7 @@ h1, h2 {
 }
 
 .main.container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
@@ -85,18 +86,19 @@ h1, h2 {
 .resource-section:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background-color: linear-gradient(60deg, #b0cef0 0%, #043870 100%);
 }
 
 .resource-section h2 {
     font-size: 28px;
-    color: #4A90E2;
-    border-bottom: 2px solid #4A90E2;
+    color: #461a03;
+    border-bottom: 2px solid #292e34;
     padding-bottom: 5px;
     display: inline-block;
 }
 
 .resource-section p {
-    color: #555;
+    color: #012817;
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 15px;
@@ -115,23 +117,23 @@ h1, h2 {
 
 .resource-section ul li a {
     font-size: 16px;
-    color: #007bff;
+    color: #370204;
     transition: color 0.3s, background-color 0.3s, transform 0.3s;
     padding: 5px 10px;
     border-radius: 5px;
 }
 
 .resource-section ul li a:hover {
-    color: white;
-    background-color: #0056b3;
-    transform: scale(1.05);
+    color: rgb(174, 88, 88);
+    background-color: rgb(2, 59, 2);
+    transform: 0.5s  scale(1.05);
 }
 
 /* Back to home button styles */
 .back-to-home a {
     color: white;
     font-size: 24px;
-    background-color: #007bff;
+    background-color: #022d38;
     padding: 15px 30px;
     border-radius: 8px;
     display: inline-block;
@@ -140,7 +142,7 @@ h1, h2 {
 }
 
 .back-to-home a:hover {
-    background-color: #0056b3;
+    background-color:linear-gradient(60deg, #b0cef0 0%, #043870 100%);
     color: #fff;
 }
 
@@ -251,7 +253,7 @@ h1, h2 {
 
 .links-group ul li a {
     font-size: 16px;
-    color: #007bff;
+    color: #033909;
     text-decoration: none;
     transition: color 0.3s, background-color 0.3s, transform 0.3s;
     padding: 5px 10px;
@@ -261,7 +263,7 @@ h1, h2 {
 
 .links-group ul li a:hover {
     color: white;
-    background-color: #0056b3;
+    background-color: #023910;
     transform: scale(1.05);
 }
 
@@ -290,7 +292,7 @@ h1, h2 {
 
 .links-group ul li a {
     font-size: 16px;
-    color: #007bff;
+    color: #04024c;
     text-decoration: none;
     transition: color 0.3s, background-color 0.3s, transform 0.3s;
     padding: 5px 10px;
@@ -322,19 +324,19 @@ h1, h2 {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(53, 50, 50, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .video-links a:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 12px rgba(51, 47, 47, 0.2);
 }
 
 .video-links img {
     width: 100%;
     height: auto;
-    border-bottom: 4px solid #007bff;
+    border-bottom: 4px solid #02300a;
 }
 
 .video-links p {
